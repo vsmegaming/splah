@@ -1,5 +1,5 @@
 Splash::Application.routes.draw do
   root 'subscriptions#new'
 
-  resource :subscriptions
+  resources :subscriptions
 end

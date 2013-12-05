@@ -4,6 +4,10 @@ class SubscriptionsController < ApplicationController
     @subscription = Subscription.new
   end
 
+  def index
+    @subscriptions = Subscription.all
+  end
+
   def create
     @subscription = Subscription.new(subscription_attrs)
 
