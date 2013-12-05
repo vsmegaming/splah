@@ -2,9 +2,6 @@
   <h1 class="logo">VsMe Gaming</h1>
 
   <%= form_for @subscription do |f| %>
-    <%= f.label :email, "Enter an email address" %>
-    <%= f.text_field :email %>
-
-    <%= f.submit "Submit", class: "btn" %>
+    <%= f.email_field :email, placeholder: "email address", class: "email" %>
   <% end %>
 </div>
