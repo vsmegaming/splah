@@ -12,6 +12,7 @@ body {
   background-image: url("iphonegame.png");
   background-position: center;
   background-position-y: 180px;
+  background-position-x: 25px;
   background-repeat: no-repeat;
   background-size: 600px 460px;
 }
