@@ -1,7 +1,13 @@
 <div class="main">
-  <h1 class="logo">VsMe Gaming</h1>
+  <div class="heading">
+    <h1 class="logo">VsMe Gaming</h1>
 
-  <%= form_for @subscription do |f| %>
-    <%= f.email_field :email, placeholder: "email address", class: "email" %>
-  <% end %>
+    <%= form_for @subscription do |f| %>
+      <%= f.email_field :email, placeholder: "email address", class: "email" %>
+    <% end %>
+    <div class="tag-line">
+      <p>Changin the</p>
+      <p>Future of Mobile Gaming.</p>
+    </div>
+  </div>
 </div>
