@@ -1,0 +1,61 @@
+body {
+  background-color: #e1713b;
+}
+
+.main {
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  background-image: url("iphonegame.png");
+  background-position: center;
+  background-position-y: 110px;
+  background-position-x: 25px;
+  background-repeat: no-repeat;
+  background-size: 700px 540px;
+}
+
+.logo{
+  text-indent:-9999px;
+  background-image: url("logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  height:150px;
+}
+
+.email {
+  width: 300px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.tag-line {
+  text-align: right;
+  margin-top: 335px;
+  margin-right: 50px;
+  font-size: 22px;
+  color: #fff;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 86px;
+  color: #ffffff;
+  margin: 0px
+}
+
+h4 {
+  font-family: arial;
+  font-size: 36px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+p {
+  font-family: arial;
+  //color: #b3b3b3;
+  margin: 10px;
+}
